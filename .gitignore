@@ -1,0 +1,7 @@
+checkpoints/
+logs/
+data/
+*.keras
+*.h5
+__pycache__/
+.env
