@@ -5,3 +5,37 @@ data/
 *.h5
 __pycache__/
 .env
+
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environments
+venv/
+env/
+.env
+conda-meta/
+
+# Datasets (NEVER upload 1.5 Lakh images to GitHub)
+data/
+data_processed/
+temp/
+cache_260/
+
+# Large Model Files (GitHub limit is 100MB)
+models/*.keras
+models/*.h5
+models/*.pth
+checkpoints/
+
+# Logs and Debugging
+logs/*.csv
+logs/*.png
+debug_*.jpg
+.ipynb_checkpoints/
+
+# IDE Specific
+.vscode/
+.idea/
