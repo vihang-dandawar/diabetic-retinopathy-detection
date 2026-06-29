@@ -6,8 +6,8 @@ A production-grade, deep learning pipeline designed to detect and grade the seve
 This project implements an end-to-end medical AI solution, moving from raw data engineering to a full-stack deployment. It is optimized to run on constrained hardware (2GB NVIDIA T1000) while maintaining clinical-grade diagnostic stability.
 
 ### Key Metrics (Current Baseline)
-- **Training Accuracy:** ~79.9%
-- **Validation Accuracy:** ~75.8%
+- **Training Accuracy:** ~87.9%
+- **Validation Accuracy:** ~81.8%
 - **Healthy Retina Recall:** 94% (High Specificity)
 - **Architecture:** MobileNetV2 (Alpha 1.3 optimized)
 
